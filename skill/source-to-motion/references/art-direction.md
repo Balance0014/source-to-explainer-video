@@ -7,7 +7,7 @@ The reusable part of this skill is how it discovers truth and evaluates a film. 
 Before building a scene, answer in plain language:
 
 - **Who and why:** Who uses this, what problem or decision does it change, and what is distinctive in its domain? Read enough official docs, examples, or code to distinguish the product from similar tools.
-- **Input → mechanism → output:** Identify the real objects being transformed. Avoid abstract verbs such as “innovates” or “empowers.”
+- **Input → mechanism → output:** Identify the real objects being transformed. Avoid abstract verbs that name no mechanism.
 - **Visual event:** What can move, split, connect, filter, accumulate, disappear, or become legible as the product acts? Show that action in the first second if possible.
 - **Evidence:** Which on-screen facts have a source? Which visible objects are illustrative? A topology, weather field, benchmark, score, or result must never look measured unless its underlying data exists.
 - **Alternatives:** Consider two distinct concepts with different spatial logic or motion, then choose by semantic fit and impact at phone size. Reject a concept if it relies on an attractive background to do the explanatory work.

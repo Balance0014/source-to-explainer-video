@@ -6,7 +6,7 @@
 
 [![四支内容驱动短片的动态片段](media/showreel.gif)](examples/director-tests/README.md)
 
-[看新版内容驱动样片](examples/director-tests/README.md) · [看第一代 GitHub 样片](examples/SHOWCASE.md) · [看中文仪表盘](https://github.com/Balance0014/source-to-motion/releases/download/showcase-media/pulse-atlas-zh-preview.mp4)
+[看新版内容驱动样片](examples/director-tests/README.md) · [看第一代 GitHub 样片](examples/SHOWCASE.md) · [看中文仪表盘](https://github.com/Balance0014/source-to-explainer-video/releases/download/showcase-media/pulse-atlas-zh-preview.mp4)
 
 [第一代六个 GitHub 案例图集](examples/SHOWCASE.md)保留供对照。
 
@@ -21,7 +21,7 @@ Source to Motion 是一套开源的 **Agent Skill + 本地视频工具**。把 G
 需要 Python 3.10+、FFmpeg，以及能运行本地 Python 的 Codex。用 [skills CLI](https://www.skills.sh/docs/cli) 安装**同一个仓库**里的轻量 `skill-only` 分支；主分支继续展示样片。安装包约 0.3 MB，不会把 MP4 案例一并装进你的 Skill 目录：
 
 ```bash
-npx skills add https://github.com/Balance0014/source-to-motion/tree/skill-only -g -a codex -y
+npx skills add https://github.com/Balance0014/source-to-explainer-video/tree/skill-only -g -a codex -y
 ```
 
 CLI 会显示安装位置；随后在该目录安装 `requirements.txt`，并确认 FFmpeg 可用：
@@ -58,11 +58,11 @@ ffmpeg -version
 
 | 项目 | 画面里真正发生的动作 | 成片 |
 | --- | --- | --- |
-| uv | 依赖关系被遍历并收束成锁定结构 | [观看](https://github.com/Balance0014/source-to-motion/releases/download/showcase-media/director-tests-uv-preview.mp4) |
-| DuckDB | CSV/Parquet 数据流穿过 SQL 查询平面并形成结构化结果 | [观看](https://github.com/Balance0014/source-to-motion/releases/download/showcase-media/director-tests-duckdb-preview.mp4) |
-| Tailscale | 分散设备逐步连成示意性的私有网络 | [观看](https://github.com/Balance0014/source-to-motion/releases/download/showcase-media/director-tests-tailscale-preview.mp4) |
-| GapMine | 开发者来源信号汇聚成有出处的具体机会 | [观看](https://github.com/Balance0014/source-to-motion/releases/download/showcase-media/director-tests-gapmine-preview.mp4) |
-| ripgrep | 递归搜索过滤文件风暴，留下匹配行 | [观看](https://github.com/Balance0014/source-to-motion/releases/download/showcase-media/director-tests-ripgrep-preview.mp4) |
+| uv | 依赖关系被遍历并收束成锁定结构 | [观看](https://github.com/Balance0014/source-to-explainer-video/releases/download/showcase-media/director-tests-uv-preview.mp4) |
+| DuckDB | CSV/Parquet 数据流穿过 SQL 查询平面并形成结构化结果 | [观看](https://github.com/Balance0014/source-to-explainer-video/releases/download/showcase-media/director-tests-duckdb-preview.mp4) |
+| Tailscale | 分散设备逐步连成示意性的私有网络 | [观看](https://github.com/Balance0014/source-to-explainer-video/releases/download/showcase-media/director-tests-tailscale-preview.mp4) |
+| GapMine | 开发者来源信号汇聚成有出处的具体机会 | [观看](https://github.com/Balance0014/source-to-explainer-video/releases/download/showcase-media/director-tests-gapmine-preview.mp4) |
+| ripgrep | 递归搜索过滤文件风暴，留下匹配行 | [观看](https://github.com/Balance0014/source-to-explainer-video/releases/download/showcase-media/director-tests-ripgrep-preview.mp4) |
 
 ### 第一代样片
 
@@ -76,7 +76,7 @@ ffmpeg -version
 | [Tailscale](https://github.com/tailscale/tailscale) | 分散设备连接成私有网格 | 私有 WireGuard 网络、守护进程和命令行工具 |
 | [Excalidraw](https://github.com/excalidraw/excalidraw) | 悬浮的手绘画布生成协作图 | 无限画布、协作、PNG/SVG 导出 |
 | [虚构 Word 简报](examples/pulse-atlas/brief.docx) | 明亮的事件仪表盘 | 最近 30 天 **2,480** 件事件、**97.4%** 自动标记、**12 分钟**响应时间中位数 |
-| [同一英文简报 → 中文视频](https://github.com/Balance0014/source-to-motion/releases/download/showcase-media/pulse-atlas-zh-preview.mp4) | 针对中文重排文字与卡片 | 数字保持相同；[中文事实清单](examples/pulse-atlas-zh/facts.json)保留英文原句作为证据 |
+| [同一英文简报 → 中文视频](https://github.com/Balance0014/source-to-explainer-video/releases/download/showcase-media/pulse-atlas-zh-preview.mp4) | 针对中文重排文字与卡片 | 数字保持相同；[中文事实清单](examples/pulse-atlas-zh/facts.json)保留英文原句作为证据 |
 
 GapMine 样片是面向手机信息流的 **16 秒、1080×1350（4:5）竖版非官方概念片**，依据 [2026 年 10 月 8 日 09:43 UTC 的公开首页快照](examples/gapmine/source.json)；官网实时计数日后会变化。中央的市场缺口随信号流入逐步向下、向外点亮；右侧和底部显示有出处的数字与引文。两张生成的市场地形图不含事实文字，镜头、局部揭示、信号流和准确数值由代码控制。这是产品故事的视觉隐喻，不是真实软件操作录像，也没有编造评分数值。
 
@@ -101,7 +101,7 @@ python3 scripts/verify.py --video /tmp/gapmine.mp4 --facts examples/gapmine/fact
 ```bash
 python3 -m pip install -r requirements-browser.txt
 python3 -m playwright install chromium
-curl -L -o examples/director-tests/uv/audio.wav https://github.com/Balance0014/source-to-motion/releases/download/showcase-media/director-tests-uv-audio.wav
+curl -L -o examples/director-tests/uv/audio.wav https://github.com/Balance0014/source-to-explainer-video/releases/download/showcase-media/director-tests-uv-audio.wav
 python3 scripts/preview_browser.py --scene examples/director-tests/uv/scene.html --facts examples/director-tests/uv/facts.json --out /tmp/uv-contact.jpg
 python3 scripts/render_browser.py --scene examples/director-tests/uv/scene.html --facts examples/director-tests/uv/facts.json --audio examples/director-tests/uv/audio.wav --out /tmp/uv-new.mp4
 ```
@@ -113,7 +113,7 @@ python3 scripts/render_browser.py --scene examples/director-tests/uv/scene.html 
 - 新中文项目若使用样片字库以外的汉字，需要系统安装完整的中文字体或另行提供字体。
 - 私人项目的 `source.json` 可能包含原文，不要把它提交到公开仓库。
 
-更具体的说明见[隐私说明](PRIVACY.md)。如想分享成片，请使用[展示入口](https://github.com/Balance0014/source-to-motion/issues/new/choose)，只提交有权公开的资料。
+更具体的说明见[隐私说明](PRIVACY.md)。如想分享成片，请使用[展示入口](https://github.com/Balance0014/source-to-explainer-video/issues/new/choose)，只提交有权公开的资料。
 
 ## 开发与许可
 

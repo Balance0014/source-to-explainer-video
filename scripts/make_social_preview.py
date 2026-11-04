@@ -14,7 +14,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageOps
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "media" / "social-preview.jpg"
 W, H = 1280, 640
-RELEASE = "https://github.com/Balance0014/source-to-motion/releases/download/showcase-media/"
+RELEASE = "https://github.com/Balance0014/source-to-explainer-video/releases/download/showcase-media/"
 
 
 def ffmpeg_executable() -> str:
