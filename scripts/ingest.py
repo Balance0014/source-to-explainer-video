@@ -24,7 +24,7 @@ import certifi
 
 MAX_BYTES = 8_000_000
 MAX_TEXT = 180_000
-USER_AGENT = "source-to-motion/0.1 (+https://github.com/Balance0014/source-to-motion)"
+USER_AGENT = "source-to-motion/0.1 (+https://github.com/Balance0014/source-to-explainer-video)"
 
 
 class PageText(HTMLParser):
